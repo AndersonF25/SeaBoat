@@ -62,6 +62,7 @@
     height: 350px;
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #foto-2{
