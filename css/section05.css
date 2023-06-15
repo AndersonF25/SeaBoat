@@ -1,0 +1,62 @@
+.container5{
+    background-color: #8cdcff;
+    width: 100%;
+}
+
+.container-items5{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#foto-items5{
+    background: url(../imagens/foto-section5.jpg);
+    max-width: 700px;
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-items5{
+    border: none;
+    background-color: #fff;
+    width: 600px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 0 30px;
+    gap: 35px;
+    position: absolute;
+    right: 0px;
+}
+
+.text-items5 h3{
+    font-size: 2em;
+}
+
+.text-items5 p{
+    text-align: end;
+}
+
+.text-items5 a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(51, 51, 253);
+    border-bottom: 2px solid rgb(51, 51, 253);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.text-items5 a:hover{
+    color: rgb(51, 51, 140);
+}

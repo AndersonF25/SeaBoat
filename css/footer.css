@@ -1,0 +1,45 @@
+#footer {
+    width: 100%;
+    background-color: #252d47;
+    color: #fff;
+
+}
+
+.container-footer {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 0;
+}
+
+.contact {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-contact {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+    color: #252d47;
+    padding: 20px 80px;
+}
+
+.form-contact h3 {
+    font-size: 1.7em;
+
+}
+
+.form-contact {
+    font-size: 1.1em;
+    font-weight: 500;
+
+}

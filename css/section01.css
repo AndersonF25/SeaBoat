@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    background: linear-gradient(to right, #fff 0%, #fff 35%, #8cdcff 35%, #8cdcff 100%);
+
+}
+
+.container-items {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.foto {
+    background: url(../imagens/foto-section1.jpg);
+    width: 1000px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text h3 {
+    font-size: 2em;
+}
+
+.text p {
+    font-size: 1em;
+}
+
+.text a {
+
+    border: none;
+    background-color: rgb(51, 51, 253);
+    border-radius: 6px;
+    padding: 13px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.text a:hover{
+    background-color: rgb(51, 51, 140);
+}

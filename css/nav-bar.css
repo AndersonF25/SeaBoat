@@ -1,0 +1,57 @@
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    padding: 20px 0;
+    position: relative;
+}
+
+.container-nav{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container-nav h1{
+    font-size: 2.2em;
+}
+
+.container-nav .lista{
+    display: flex;
+    gap: 40px;
+}
+
+.lista{
+    position: relative;
+}
+
+.lista a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.lista li{
+    list-style: none;
+    position: relative;
+}
+
+ .container-nav .lista li a::before{
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: ease .4s;
+}
+
+ .container-nav .lista li a:hover::before{
+    width: 100%;
+}
